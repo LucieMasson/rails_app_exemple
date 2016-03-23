@@ -38,7 +38,7 @@ RSpec.describe PagesController, :type => :controller do
 
     it "has correct title" do
       get :about
-      expect(response.body).to have_title " S imple App du Tutoriel Ruby on Rails | À Propos"
+      expect(response.body).to have_title "Simple App du Tutoriel Ruby on Rails | À Propos"
     end
   end
 
