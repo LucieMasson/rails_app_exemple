@@ -7,6 +7,7 @@ gem 'jquery-rails'
 group :development do
   gem 'rspec-rails'
   gem 'libnotify'
+  gem 'capybara'
 end
 
 group :test do
