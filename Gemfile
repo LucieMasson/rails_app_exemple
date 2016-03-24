@@ -6,8 +6,9 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails'
+  gem 'capybara'  
   gem 'libnotify'
-  gem 'capybara'
+  gem 'spork', github: 'sporkrb/spork'  
 end
 
 group :test do

@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/sporkrb/spork.git
+  revision: 224df492657e617a0c93c0319e78f0eefee5b636
+  specs:
+    spork (1.0.0rc4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -115,7 +121,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.47)
+    tzinfo (0.3.48)
     webrat (0.7.3)
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
@@ -133,5 +139,6 @@ DEPENDENCIES
   rails (= 3.2.16)
   rspec
   rspec-rails
+  spork!
   sqlite3-ruby
   webrat
