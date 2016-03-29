@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 class PagesController < ApplicationController
+ 
   def home
 		@titre = "Accueil"
   end
@@ -16,4 +17,5 @@ class PagesController < ApplicationController
   def about
 		@titre = "À Propos"
   end
+    
 end
