@@ -24,4 +24,9 @@ RSpec.describe "LayoutLinks", :type => :request do
     #expect(response.body).to have_title "Aide"
   end
 
+  it "devrait avoir une page d'inscription à '/signup'" do
+    get '/signup'
+    #expect(response.body).to have_title "Aide"
+  end
+
 end
