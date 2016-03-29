@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  resources :users
+
   match 'pages/:action', :controller => 'pages'
   match 'users/:action', :controller => 'users'
 

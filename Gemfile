@@ -9,6 +9,7 @@ group :development do
   gem 'capybara'  
   gem 'libnotify'
   gem 'spork', github: 'sporkrb/spork'  
+  gem 'annotate_models'
 end
 
 group :test do
